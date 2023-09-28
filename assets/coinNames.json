@@ -1,0 +1,125 @@
+
+    [
+        {
+          "id": "btc",
+          "name": "bitcoin",
+          "namee":"bitcoin",
+          "logo": "https://cryptologos.cc/logos/bitcoin-btc-logo.svg?v=026"
+        },
+        {
+          "id": "eth",
+          "name": "ethereum",
+          "namee":"ethereum",
+          "logo": "https://cryptologos.cc/logos/ethereum-eth-logo.svg?v=026"
+        },
+        {
+          "id": "usd",
+          "name": "tether",
+          "namee":"tether",
+          "logo": "https://cryptologos.cc/logos/tether-usdt-logo.svg?v=026"
+        },
+        {
+          "id": "ltc",
+          "name": "litecoin",
+          "namee":"litecoin",
+          "logo": "https://cryptologos.cc/logos/litecoin-ltc-logo.svg?v=026"
+        },
+        {
+          "id": "xrp",
+          "name": "ripple",
+          "namee":"ripple",
+          "logo": "https://cryptologos.cc/logos/xrp-xrp-logo.svg?v=026"
+        },
+        {
+          "id": "ada",
+          "name": "cardano",
+          "logo": "https://cryptologos.cc/logos/cardano-ada-logo.svg?v=026"
+        },
+        {
+          "id": "bnb",
+          "name": "binancecoin",
+          "logo": "https://cryptologos.cc/logos/bnb-bnb-logo.svg?v=026"
+        },
+        {
+          "id": "dot",
+          "name": "polkadot",
+          "logo": "https://cryptologos.cc/logos/polkadot-new-dot-logo.svg?v=026"
+        },
+        {
+          "id": "link",
+          "name": "chainlink",
+          "logo": "https://cryptologos.cc/logos/chainlink-link-logo.svg?v=026"
+        },
+        {
+          "id": "xlm",
+          "name": "stellar",
+          "logo": "https://cryptologos.cc/logos/stellar-xlm-logo.svg?v=026"
+        },
+        {
+          "id": "uni",
+          "name": "uniswap",
+          "logo": "https://cryptologos.cc/logos/uniswap-uni-logo.svg?v=026"
+        },
+        {
+          "id": "doge",
+          "name": "dogecoin",
+          "logo": "https://cryptologos.cc/logos/dogecoin-doge-logo.svg?v=026"
+        },
+        {
+          "id": "vet",
+          "name": "veChain",
+          "logo": "https://example.com/vechain.png"
+        },
+        {
+          "id": "atom",
+          "name": "cosmos",
+          "logo": "https://example.com/cosmos.png"
+        },
+        {
+          "id": "xmr",
+          "name": "monero",
+          "logo": "https://example.com/monero.png"
+        },
+        {
+          "id": "eos",
+          "name": "eos",
+          "logo": "https://example.com/eos.png"
+        },
+        {
+          "id": "xtz",
+          "name": "tezos",
+          "logo": "https://example.com/tezos.png"
+        },
+        {
+          "id": "algo",
+          "name": "algorand",
+          "logo": "https://example.com/algorand.png"
+        },
+        {
+          "id": "zec",
+          "name": "zcash",
+          "logo": "https://example.com/zcash.png"
+        },
+        {
+          "id": "dai",
+          "name": "dai",
+          "logo": "https://example.com/dai.png"
+        },
+        {
+          "id": "chz",
+          "name": "chiliz",
+          "logo": "https://example.com/chiliz.png"
+        },
+        {
+          "id": "theta",
+          "name": "theta",
+          "logo": "https://example.com/theta.png"
+        },
+       
+        {
+          "id": "ksm",
+          "name": "kusama",
+          "logo": "https://example.com/kusama.png"
+        }
+       
+      ]

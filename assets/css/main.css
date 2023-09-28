@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply bg-gray-900 
+}
+.swiper{
+    @apply w-full md:w-[30em]
+}
+span.swiper-pagination-bullet-active{
+    @apply bg-orange-600
+}
+
+
+.line {
+    @apply absolute bottom-0 left-0 w-full h-full bg-orange-600 scale-x-0 origin-left duration-500 ease-linear
+}
+.line.active {
+    @apply scale-x-90
+}
