@@ -10,8 +10,8 @@
 <div @click="index2 = !index2" class="mb-2 border-b border-gray-700 py-1">{{ $t("contact") }} <i  class="fa fa-chevron-down duration-300" :class="{' rotate-0': !index2, 'rotate-180': index2}" /></div>
    <div v-show="index2">
     <ul class="mt-2">
-        <li class="border-b border-gray-700 pb-2">{{ $t("technicalTeam") }}</li>
-        <li class="pt-2 border-b border-gray-700 pb-2">{{ $t("customerServices") }}</li>
+        <li @click="navigateTo('/technical-team')" class="border-b border-gray-700 pb-2">{{ $t("technicalTeam") }}</li>
+        <li  class="pt-2 border-b border-gray-700 pb-2">{{ $t("customerServices") }}</li>
         <li class="py-1 border-b border-gray-700 pb-2">{{ $t("commercial") }}</li>
     </ul>
 </div>

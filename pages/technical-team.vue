@@ -1,15 +1,15 @@
 <template>
     <dropdown/>
     <notif2  :class="{'translate-x-0': isSuccessful, 'translate-x-[-130%]': !isSuccessful}"/>
-<div class="text-orange-600 bg-gray-800 px-5 py-5 mb-10 mx-auto container w-fit">
-    <img src="../assets/technical-team.png" class="w-[15em] my-5  mx-auto" alt="">
-    <h1 class="font-extrabold text-xl mb-6">{{ $t('contactTeam') }}</h1>
+<div class="text-orange-600 bg-gray-800 px-5 py-5 mb-10 mx-auto container w-[22em] md:w-fit">
+    <img src="../assets/technical-team.png" class="w-[8em] md:w-[15em] my-5  mx-auto" alt="">
+    <h1 class="font-extrabold text-xl mb-6 text-center">{{ $t('contactTeam') }}</h1>
     <form @submit.prevent="sendReport" class="flex flex-col ">
-        <label for="title" >{{ $t('title') }} :</label>
-        <input class="bg-gray-700 rounded outline-none border-none px-4 mt-2" type="text" id="title">
+        <label for="title">{{ $t('title') }} :</label>
+        <input v-model="title" class="bg-gray-700 rounded outline-none border-none px-4 mt-2" type="text" id="title">
         <br>
         <label for="description">{{ $t('description2') }} :</label>
-        <textarea class="bg-gray-700 py-4 rounded outline-none border-none px-4 mt-2" id="description" cols="30" rows="10" style="resize: none;"></textarea>
+        <textarea v-model="description" class="bg-gray-700 py-4  h-20 rounded outline-none border-none px-4 mt-2" id="description" cols="30" rows="10" style="resize: none;"></textarea>
         <br>
         <input type="submit" class="bg-orange-600 text-gray-800 w-fit mx-auto px-3 py-1 rounded font-bold cursor-pointer hover:bg-orange-500" :value="$t('submit')">
     </form>
